@@ -12,7 +12,7 @@ module.exports = (grunt) ->
           types: 'eot,woff,ttf,svg'
           template: 'icons/tmpl.css'
           htmlDemo: false
-          ligatures: true
+          ligatures: false
     cssjoin: #CSSファイルの@import処理
       dev:
         files:
@@ -33,20 +33,19 @@ module.exports = (grunt) ->
     #監視用の設定
     watch:
       cssjoin:
-        files: ['src/**/*.css']
+        files: ['css/{,*/}*.css']
         tasks: ['cssjoin']
       webfont:
-        files: ['src/icons/*.svg']
+        files: ['icons/*.svg']
         tasks: ['webfont']
     #ブラウザシンク
     browser_sync:
       dev:
         bsFiles:
           src: [
-            'src/**/*.css'
-            'int/css/symbols.css'
-            'int/js/*.js'
-            'int/html/*.html'
+            'css/{,*/}*.css'
+            'js/{,*/}*.js'
+            '{,*/}*.html'
           ]
         options:
           watchTask: true

@@ -4,4 +4,18 @@
 
 body {
   background: #F6D8D9;
+  margin: 0;
+  padding: 0;
+}
+
+body > p {
+  text-align: center;
+  background: rgba(255,255,255,.4);
+  padding: 10px;
+  margin: 0;
+  border-bottom: 3px dotted rgba(255,0,0,.3);
+}
+
+body > img {
+  width: 100%;
 }

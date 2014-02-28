@@ -1,0 +1,28 @@
+/* @group SMACCS */
+  /* @group base */           /*!
+ * ベースのスタイル
+ */
+
+body {
+  background: #F6D8D9;
+}
+ /* @end */
+  /* @group layout */         /*!
+ * レイアウトのスタイル
+ */
+ /* @end */
+  /* @group state */          /*!
+ * 状態を表す標準スタイル
+ */
+ /* @end */
+  /* @group modules */
+    /* @group globalnav */    /*!
+ * グルーパルナビゲーション
+ */
+ /* @end */
+    /* @group footer */       /*!
+ * グルーパルナビゲーション
+ */
+ /* @end */
+  /* @end */
+/* @end */

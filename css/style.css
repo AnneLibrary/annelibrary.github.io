@@ -1,0 +1,9 @@
+/* @group SMACCS */
+  /* @group base */           @import 'base.css'; /* @end */
+  /* @group layout */         @import 'layout.css'; /* @end */
+  /* @group state */          @import 'state.css'; /* @end */
+  /* @group modules */
+    /* @group globalnav */    @import 'modules/globalnav.css'; /* @end */
+    /* @group footer */       @import 'modules/footer.css'; /* @end */
+  /* @end */
+/* @end */

@@ -1,46 +1,22 @@
 module.exports = (grunt) ->
   require('time-grunt') grunt #実行時間の可視化用プラグイン
   grunt.initConfig
-    coffee: #CoffeeScriptのコンパイル
-      test:
-        expand: true
-        cwd: 'test/injectors/'
-        src: '*.coffee'
-        dest: 'int/injectors/'
-        ext: '.js'
     webfont: #WebFontのビルド
       dev:
-        src: 'src/icons/*.svg'
-        dest: 'int/fonts/'
-        destCss: 'int/css/'
+        src: 'icons/*.svg'
+        dest: 'fonts/'
+        destCss: 'css/'
         options:
           font: 'symbols'
           hashes: false
           types: 'eot,woff,ttf,svg'
-          template: 'src/icons/symbols.css'
+          template: 'icons/symbols.css'
           htmlDemo: false
           ligatures: true
     cssjoin: #CSSファイルの@import処理
       dev:
         files:
-          'int/css/style.css': ['src/css/style.css']
-    copy: #単純にコピーするだけのものはここで処理
-      dev:
-        options:
-          process: (content, srcpath) -> content + """\n    script src="../injectors/browser-sync.js" """
-        files: [
-          expand: true
-          dest: 'int/slim/'
-          cwd: 'src/slim/'
-          src: ['{,*/}*.slim']
-        ]
-      build:
-        files: [
-          expand: true
-          dest: 'build/'
-          cwd: 'int/'
-          src: ['fonts/**']
-        ]
+          'css/style.join.css': ['css/style.css']
     #監視用の設定
     watch:
       cssjoin:

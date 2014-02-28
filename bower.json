@@ -1,0 +1,25 @@
+{
+  "name": "AnneLibrary",
+  "version": "1.0.0",
+  "authors": [
+    "Akio Nakamata",
+    "Tsutomu Kawamura <tsutomu@librize.com>"
+  ],
+  "main": "",
+  "license": "",
+  "homepage": "http://librize.com/",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.0.3",
+    "respond": "~1.4.2",
+    "html5shiv": "~3.7.0",
+    "modernizr": "~2.7.1"
+  }
+}

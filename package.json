@@ -13,6 +13,7 @@
     "grunt-contrib-coffee": "*",
     "grunt-contrib-watch": "*",
     "grunt-contrib-copy": "*",
+    "grunt-contrib-cssmin": "*",
     "grunt-cssjoin": "*",
     "grunt-contrib-uglify": "*",
     "grunt-webfont": "*",

@@ -7,16 +7,29 @@ module.exports = (grunt) ->
         dest: 'fonts/'
         destCss: 'css/'
         options:
-          font: 'symbols'
+          font: 'anne-library'
           hashes: false
           types: 'eot,woff,ttf,svg'
-          template: 'icons/symbols.css'
+          template: 'icons/tmpl.css'
           htmlDemo: false
           ligatures: true
     cssjoin: #CSSファイルの@import処理
       dev:
         files:
           'css/style.join.css': ['css/style.css']
+    copy: #単純にコピーするだけのものはここで処理
+      dev:
+        files: [
+          expand: true
+          dest: 'fonts/'
+          cwd: 'bower_components/font-awesome/fonts/'
+          src: ['fontawesome-webfont.*']
+        ,
+          expand: true
+          dest: 'css/'
+          cwd: 'bower_components/font-awesome/css/'
+          src: ['fontawesome-webfont.css']
+        ]
     #監視用の設定
     watch:
       cssjoin:
@@ -44,4 +57,7 @@ module.exports = (grunt) ->
   #aliases
   grunt.registerTask 'default', [
     'browser_sync', 'watch'
+  ]
+  grunt.registerTask 'build', [
+    'webfont', 'cssjoin', 'copy'
   ]

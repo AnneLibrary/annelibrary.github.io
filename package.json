@@ -1,0 +1,23 @@
+{
+  "name": "AnneLibrary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tsutomu Kawamura <tsutomu@librize.com>",
+  "license": "",
+  "devDependencies": {
+    "grunt": "*",
+    "grunt-contrib-coffee": "*",
+    "grunt-contrib-watch": "*",
+    "grunt-contrib-copy": "*",
+    "grunt-cssjoin": "*",
+    "grunt-contrib-uglify": "*",
+    "grunt-webfont": "*",
+    "grunt-browser-sync": "*",
+    "load-grunt-tasks": "*",
+    "time-grunt": "*"
+  }
+}

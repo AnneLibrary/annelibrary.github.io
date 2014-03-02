@@ -60,9 +60,6 @@
   .title > h1 {
     font-size: 1.7em;
   }
-  .title > hr:after {
-    font-size: 750%;
-  }
   .title > p {
     padding: 0 3em;
     font-size: 110%;
@@ -70,6 +67,9 @@
   .title > ul li {
     border-radius: 3px;
     line-height: 2.8em;
+  }
+  .title-hr > i {
+    font-size: 750%;
   }
 }
 
@@ -80,11 +80,11 @@
   .title > h1 {
     font-size: 1.9em;
   }
-  .title > hr:after {
-    font-size: 900%;
-  }
   .title > p {
     padding: 0 5em;
     font-size: 100%;
+  }
+  .title-hr > i {
+    font-size: 900%;
   }
 }

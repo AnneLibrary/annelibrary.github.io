@@ -33,7 +33,7 @@ module.exports = (grunt) ->
     #監視用の設定
     watch:
       cssjoin:
-        files: ['css/{,*/}*.css']
+        files: ['css/{,*/}*.css', '!css/*.join.css']
         tasks: ['cssjoin']
       webfont:
         files: ['icons/*.svg']

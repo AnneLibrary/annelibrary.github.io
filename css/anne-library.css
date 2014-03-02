@@ -18,8 +18,12 @@
 	font-style: normal;
 	font-size: 16px;
 	line-height: 1;
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+	text-decoration:none;
+	text-transform:none;
+	text-rendering:optimizeLegibility;
+	-webkit-font-smoothing:antialiased;
+	-moz-osx-font-smoothing:grayscale;
+	-ms-font-feature-settings: "liga", "dlig"
 }
 
 /* Icons */

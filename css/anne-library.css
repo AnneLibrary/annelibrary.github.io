@@ -11,12 +11,12 @@
 	font-style:normal;
 }
 
-.anne {
+.ai {
 	font-family:"anne-library";
 	display: inline-block;
 	font-weight: normal;
 	font-style: normal;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 1;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -24,22 +24,54 @@
 
 /* Icons */
 
-.anne-borrow:before {
-	content:"\f100";
+.ai-books:before {
+	content:"books";
 }
 
-.anne-buy:before {
-	content:"\f101";
+.ai-borrow:before {
+	content:"borrow";
 }
 
-.anne-eat:before {
-	content:"\f102";
+.ai-buy:before {
+	content:"buy";
 }
 
-.anne-girl:before {
-	content:"\f103";
+.ai-diary:before {
+	content:"diary";
 }
 
-.anne-read:before {
-	content:"\f104";
+.ai-eat:before {
+	content:"eat";
+}
+
+.ai-emblem:before {
+	content:"emblem";
+}
+
+.ai-girl:before {
+	content:"girl";
+}
+
+.ai-grinder:before {
+	content:"grinder";
+}
+
+.ai-leaned:before {
+	content:"leaned";
+}
+
+.ai-pot:before {
+	content:"pot";
+}
+
+.ai-read:before {
+	content:"read";
+}
+
+.ai-related:before {
+	content:"related";
+}
+
+.ai-stacked:before {
+	content:"stacked";
 }

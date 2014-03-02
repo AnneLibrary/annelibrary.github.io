@@ -12,7 +12,7 @@ module.exports = (grunt) ->
           types: 'eot,woff,ttf,svg'
           template: 'icons/tmpl.css'
           htmlDemo: false
-          ligatures: false
+          ligatures: true
     cssjoin: #CSSファイルの@import処理
       dev:
         files:
@@ -28,7 +28,7 @@ module.exports = (grunt) ->
           expand: true
           dest: 'css/'
           cwd: 'bower_components/font-awesome/css/'
-          src: ['fontawesome-webfont.css']
+          src: ['font-awesome.css']
         ]
     #監視用の設定
     watch:

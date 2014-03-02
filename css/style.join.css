@@ -242,10 +242,10 @@ body > footer a:hover {
 }
 .bookshelf {
   font-size: 500%;
-  letter-spacing: -.25em;
   white-space: nowrap;
   overflow-x: hidden;
   margin: .5em 0 0;
+  word-spacing: -.25em;
 }
 
 @media only screen and (min-width: 640px) {
@@ -264,7 +264,7 @@ body > footer a:hover {
 /* SMACCS:theme */
 .title > h1,
 .actions h3 {
-  font-family: 'はるひ学園', 'Haruhi Gakuen'
+  font-family: 'フォーク B', 'Folk Bold'
 }
 
 .title > h1 > .subtitle,

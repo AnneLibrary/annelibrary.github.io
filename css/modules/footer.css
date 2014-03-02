@@ -1,3 +1,28 @@
 /*!
- * グルーパルナビゲーション
+ * フッター
  */
+
+body > footer {
+  background: #423933;
+  margin: -.25em 0 0;
+  padding: 1.5em 0 4em;
+  color: rgba(255,255,255,.7);
+}
+body > footer h2 {
+  font-size: 87.5%;
+  margin-bottom: 2em;
+}
+body > footer ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+body > footer li {
+  display: inline-block;
+}
+body > footer a {
+  color: inherit;
+}
+body > footer a:hover {
+  color: #fff;
+}

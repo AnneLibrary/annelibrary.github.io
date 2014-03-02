@@ -4,20 +4,21 @@
 
 body {
   background: #F6D8D9;
+  color: #423933;
   margin: 0;
   padding: 0;
   text-align: center;
+  font:16px 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
 }
 
-body > p {
-  text-align: center;
-  background: rgba(255,255,255,.4);
-  padding: 10px;
+a {
+  color: #2e9ad9;
+}
+
+.under-construction {
+  color: #cd8585;
+  font-size: 75%;
   margin: 0;
-  border-bottom: 3px dotted rgba(255,0,0,.3);
-}
-
-body > img {
-  width: 100%;
-  max-width: 700px
+  padding: .2em;
+  background: rgba(255,255,255,.3);
 }

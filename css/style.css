@@ -1,9 +1,14 @@
-/* @group SMACCS */
-  /* @group base */           @import 'base.css'; /* @end */
-  /* @group layout */         @import 'layout.css'; /* @end */
-  /* @group state */          @import 'state.css'; /* @end */
-  /* @group modules */
-    /* @group globalnav */    @import 'modules/globalnav.css'; /* @end */
-    /* @group footer */       @import 'modules/footer.css'; /* @end */
-  /* @end */
-/* @end */
+/* SMACCS */
+@import 'base.css';
+@import 'layout.css';
+@import 'state.css';
+
+/* SMACCS:modules */
+@import 'modules/globalnav.css';
+@import 'modules/footer.css';
+@import 'modules/title.css';
+@import 'modules/actions.css';
+@import 'modules/bookshelf.css';
+
+/* SMACCS:theme */
+@import 'theme.css';

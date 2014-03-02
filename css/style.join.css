@@ -1,43 +1,274 @@
-/* @group SMACCS */
-  /* @group base */           /*!
+/* SMACCS */
+/*!
  * ベースのスタイル
  */
 
 body {
   background: #F6D8D9;
+  color: #423933;
   margin: 0;
   padding: 0;
-}
-
-body > p {
   text-align: center;
-  background: rgba(255,255,255,.4);
-  padding: 10px;
-  margin: 0;
-  border-bottom: 3px dotted rgba(255,0,0,.3);
+  font:16px 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
 }
 
-body > img {
-  width: 100%;
-  max-width: 1400px
+a {
+  color: #2e9ad9;
 }
- /* @end */
-  /* @group layout */         /*!
+
+.under-construction {
+  color: #cd8585;
+  font-size: 75%;
+  margin: 0;
+  padding: .2em;
+  background: rgba(255,255,255,.3);
+}
+
+/*!
  * レイアウトのスタイル
  */
- /* @end */
-  /* @group state */          /*!
+
+/*!
  * 状態を表す標準スタイル
  */
- /* @end */
-  /* @group modules */
-    /* @group globalnav */    /*!
+
+
+/* SMACCS:modules */
+/*!
  * グルーパルナビゲーション
  */
- /* @end */
-    /* @group footer */       /*!
- * グルーパルナビゲーション
+
+/*!
+ * フッター
  */
- /* @end */
-  /* @end */
-/* @end */
+
+body > footer {
+  background: #423933;
+  margin: -.25em 0 0;
+  padding: 1.5em 0 4em;
+  color: rgba(255,255,255,.7);
+}
+body > footer h2 {
+  font-size: 87.5%;
+  margin-bottom: 2em;
+}
+body > footer ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+body > footer li {
+  display: inline-block;
+}
+body > footer a {
+  color: inherit;
+}
+body > footer a:hover {
+  color: #fff;
+}
+.title {
+  margin: 3em 0;
+}
+.title > i {
+  font-size: 800%;
+  background: #fff;
+  border-radius: .5em;
+  width: 1em;
+}
+.title > h1 {
+  font-size: 1.5em;
+}
+.title > h1 > .subtitle {
+  display: block;
+  font-size: .7em;
+}
+.title > p {
+  padding: 0 1em;
+  text-align: left;
+  margin: 0 auto;
+  max-width: 680px;
+  font-size: 130%;
+}
+.title > ul {
+  list-style: none;
+  padding: 0;
+  max-width: 640px;
+  margin: 1em auto;
+}
+.title > ul li {
+  padding: .3em 1em .3em 4em;
+  background: rgba(255,255,255,.5);
+  margin: .2em 0;
+  text-align: left;
+  min-height: 2.8em;
+  position: relative;
+}
+.title > ul li i {
+  position: absolute;
+  left: .5em;
+  top: .4em;
+}
+.title > ul a {
+  text-decoration: none;
+}
+.title-hr {
+  border: none;
+  border-top: 3px solid #423933;
+  margin-top: 4em;
+}
+.title-hr > i {
+	font-size: 600%;
+	margin: -.5em 0;
+}
+
+@media only screen and (min-width: 640px) {
+  .title > i {
+    font-size: 1000%;
+  }
+  .title > h1 {
+    font-size: 1.7em;
+  }
+  .title > hr:after {
+    font-size: 750%;
+  }
+  .title > p {
+    padding: 0 3em;
+    font-size: 110%;
+  }
+  .title > ul li {
+    border-radius: 3px;
+    line-height: 2.8em;
+  }
+}
+
+@media only screen and (min-width: 720px) {
+  .title > i {
+    font-size: 1200%;
+  }
+  .title > h1 {
+    font-size: 1.9em;
+  }
+  .title > hr:after {
+    font-size: 900%;
+  }
+  .title > p {
+    padding: 0 5em;
+    font-size: 100%;
+  }
+}
+
+.actions {
+  margin: 0 auto;
+  max-width: 720px;
+}
+.actions h2 {
+  background: rgba(255,255,255,.2);
+  font-size: 87.5%;
+  margin: 2em 1em 1.5em;
+  font-weight: normal;
+  padding: .3em;
+  border-radius: 3px;
+}
+
+.actions-support {
+  display: inline-block;
+  width: 40%;
+  margin-bottom: 1.5em;
+}
+.actions-support > i {
+  font-size: 500%;
+  background: #fff;
+  border-radius: .65em;
+  width: 1em;
+  padding: .15em;
+}
+.actions-support h3 {
+  margin: .5em 0;
+}
+.actions-support p {
+  font-size: 87.5%;
+  margin: 0;
+}
+
+.actions-create {
+  width: 17em;
+  margin: 0 auto 2em;
+  text-align: left;
+}
+.actions-create > i {
+  font-size: 500%;
+  background: #fff;
+  border-radius: .5em;
+  width: 1em;
+  height: 1em;
+  padding: 0;
+  overflow: hidden;
+  float: left;
+  margin-right: .2em;
+  text-align:center;
+}
+.actions-create h3 {
+  margin: 0;
+  padding-top: .4em;
+}
+.actions-create p {
+  font-size: 87.5%;
+  margin: 0;
+}
+
+@media only screen and (min-width: 640px) {
+  .actions-support {
+    width: 24%;
+  }
+  .actions-support > i {
+    font-size: 400%;
+  }
+  .actions-create {
+    display: inline-block;
+    width: 45%;
+  }
+  .actions-create > i {
+    font-size: 600%;
+  }
+}
+
+@media only screen and (min-width: 720px) {
+  .actions-support > i {
+    font-size: 500%;
+  }
+  .actions-create > i {
+    font-size: 700%;
+  }
+}
+.bookshelf {
+  font-size: 500%;
+  letter-spacing: -.25em;
+  white-space: nowrap;
+  overflow-x: hidden;
+  margin: .5em 0 0;
+}
+
+@media only screen and (min-width: 640px) {
+  .bookshelf {
+    font-size: 700%;
+  }
+}
+
+@media only screen and (min-width: 720px) {
+  .bookshelf {
+    font-size: 900%;
+  }
+}
+
+
+/* SMACCS:theme */
+.title > h1,
+.support-todo > h3 {
+  font-family: 'はるひ学園', 'Haruhi Gakuen'
+}
+
+.title > h1 > .subtitle,
+body > footer h2 {
+  font-family: 'Glass Antiqua', cursive;
+}
+

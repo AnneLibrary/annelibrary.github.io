@@ -1,0 +1,9 @@
+.title > h1,
+.support-todo > h3 {
+  font-family: 'はるひ学園', 'Haruhi Gakuen'
+}
+
+.title > h1 > .subtitle,
+body > footer h2 {
+  font-family: 'Glass Antiqua', cursive;
+}

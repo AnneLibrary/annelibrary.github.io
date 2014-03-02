@@ -1,0 +1,83 @@
+.actions {
+  margin: 0 auto;
+  max-width: 720px;
+}
+.actions h2 {
+  background: rgba(255,255,255,.2);
+  font-size: 87.5%;
+  margin: 2em 1em 1.5em;
+  font-weight: normal;
+  padding: .3em;
+  border-radius: 3px;
+}
+
+.actions-support {
+  display: inline-block;
+  width: 40%;
+  margin-bottom: 1.5em;
+}
+.actions-support > i {
+  font-size: 500%;
+  background: #fff;
+  border-radius: .65em;
+  width: 1em;
+  padding: .15em;
+}
+.actions-support h3 {
+  margin: .5em 0;
+}
+.actions-support p {
+  font-size: 87.5%;
+  margin: 0;
+}
+
+.actions-create {
+  width: 17em;
+  margin: 0 auto 2em;
+  text-align: left;
+}
+.actions-create > i {
+  font-size: 500%;
+  background: #fff;
+  border-radius: .5em;
+  width: 1em;
+  height: 1em;
+  padding: 0;
+  overflow: hidden;
+  float: left;
+  margin-right: .2em;
+  text-align:center;
+}
+.actions-create h3 {
+  margin: 0;
+  padding-top: .4em;
+}
+.actions-create p {
+  font-size: 87.5%;
+  margin: 0;
+}
+
+@media only screen and (min-width: 640px) {
+  .actions-support {
+    width: 24%;
+  }
+  .actions-support > i {
+    font-size: 400%;
+  }
+  .actions-create {
+    display: inline-block;
+    width: 45%;
+  }
+  .actions-create > i {
+    font-size: 600%;
+  }
+}
+
+@media only screen and (min-width: 720px) {
+  .actions-support > i {
+    font-size: 500%;
+  }
+  .actions-create > i {
+    font-size: 700%;
+  }
+}

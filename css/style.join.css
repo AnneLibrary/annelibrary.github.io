@@ -81,6 +81,9 @@ body > footer > ul li {
   position: relative;
   color: #FFF;
 }
+body > footer > ul li:hover {
+  background: rgba(255,255,255,.3);
+}
 body > footer > ul li i {
   position: absolute;
   left: .8em;

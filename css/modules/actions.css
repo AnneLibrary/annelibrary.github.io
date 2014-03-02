@@ -18,7 +18,7 @@
 }
 .actions-support > i {
   font-size: 500%;
-  background: #fff;
+  background: rgba(255,255,255,.8);
   border-radius: .65em;
   width: 1em;
   padding: .15em;

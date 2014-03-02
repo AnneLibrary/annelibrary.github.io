@@ -12,12 +12,12 @@ body > footer h2 {
   font-size: 87.5%;
   margin-bottom: 2em;
 }
-body > footer ul {
+body > footer ol {
   padding: 0;
   margin: 0;
   list-style: none;
 }
-body > footer li {
+body > footer ol > li {
   display: inline-block;
 }
 body > footer a {
@@ -25,4 +25,34 @@ body > footer a {
 }
 body > footer a:hover {
   color: #fff;
+}
+body > footer > ul {
+  list-style: none;
+  padding: 0;
+  max-width: 580px;
+  margin: 2em auto;
+}
+body > footer > ul li {
+  padding: .3em 1em .3em 5em;
+  background: rgba(255,255,255,.1);
+  margin: .2em 0;
+  text-align: left;
+  min-height: 2.8em;
+  position: relative;
+  color: #FFF;
+}
+body > footer > ul li i {
+  position: absolute;
+  left: .8em;
+  top: .4em;
+}
+body > footer > ul a {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 560px) {
+  body > footer > ul li {
+    border-radius: 3px;
+    line-height: 2.8em;
+  }
 }

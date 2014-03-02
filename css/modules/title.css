@@ -1,5 +1,5 @@
 .title {
-  margin: 3em 0;
+  margin: 3em 0 2em;
 }
 .title > i {
   font-size: 800%;
@@ -21,28 +21,6 @@
   max-width: 680px;
   font-size: 130%;
 }
-.title > ul {
-  list-style: none;
-  padding: 0;
-  max-width: 640px;
-  margin: 1em auto;
-}
-.title > ul li {
-  padding: .3em 1em .3em 4em;
-  background: rgba(255,255,255,.5);
-  margin: .2em 0;
-  text-align: left;
-  min-height: 2.8em;
-  position: relative;
-}
-.title > ul li i {
-  position: absolute;
-  left: .5em;
-  top: .4em;
-}
-.title > ul a {
-  text-decoration: none;
-}
 .title-hr {
   border: none;
   border-top: 3px solid #423933;
@@ -53,7 +31,7 @@
 	margin: -.5em 0;
 }
 
-@media only screen and (min-width: 640px) {
+@media only screen and (min-width: 560px) {
   .title > i {
     font-size: 1000%;
   }

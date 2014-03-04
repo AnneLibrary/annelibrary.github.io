@@ -99,6 +99,10 @@ body > footer > ul a {
     line-height: 2.8em;
   }
 }
+/*!
+ * タイトル
+ */
+
 .title {
   margin: 3em 0 2em;
 }
@@ -111,7 +115,7 @@ body > footer > ul a {
 .title > h1 {
   font-size: 1.5em;
 }
-.title > h1 > .subtitle {
+.title > h1 > .as-sub {
   display: block;
   font-size: .7em;
 }
@@ -167,6 +171,10 @@ body > footer > ul a {
     font-size: 900%;
   }
 }
+
+/*!
+ * 参加方法
+ */
 
 .actions {
   margin: 0 auto;
@@ -251,6 +259,10 @@ body > footer > ul a {
     font-size: 700%;
   }
 }
+/*!
+ * 本棚
+ */
+
 .bookshelf {
   font-size: 500%;
   white-space: nowrap;
@@ -279,7 +291,7 @@ body > footer > ul a {
   font-family: 'フォーク M', 'Folk Medium'
 }
 
-.title > h1 > .subtitle,
+.title > h1 > .as-sub,
 body > footer h2 {
   font-family: 'Glass Antiqua', cursive;
 }

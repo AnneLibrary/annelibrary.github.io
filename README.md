@@ -108,7 +108,15 @@
 
 ### HTMLの編集
 
+0. HEADタグの中の`<!-- (1) ここにフォントのCSS -->`と書かれた箇所で、下記のようにCSSを読み込みます。
+
 ```html
 <link href="css/anne-library.css" rel="stylesheet">
+```
+
+0. `<!-- (2) ここにアイコン:girl -->`と書かれた箇所で、下記のように記述します。
+
+```html
+<i class="ai ai-girl"></i>
 ```
 

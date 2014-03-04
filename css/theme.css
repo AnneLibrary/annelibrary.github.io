@@ -3,7 +3,7 @@
   font-family: 'フォーク M', 'Folk Medium'
 }
 
-.title > h1 > .subtitle,
+.title > h1 > .as-sub,
 body > footer h2 {
   font-family: 'Glass Antiqua', cursive;
 }

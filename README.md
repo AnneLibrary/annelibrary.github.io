@@ -108,15 +108,30 @@
 
 ### HTMLの編集
 
-0. HEADタグの中の`<!-- (1) ここにフォントのCSS -->`と書かれた箇所で、下記のようにCSSを読み込みます。
+編集の前に、とりあえずブラウザで表示させてみましょう。アイコンがないので、さみしい感じです...
+
+![HTML編集前](images/before-editing.png)
+
+HEADタグの中の`<!-- (A) ここにフォントのCSS -->`と書かれた箇所で、下記のようにCSSを読み込みます。
 
 ```html
 <link href="css/anne-library.css" rel="stylesheet">
 ```
 
-0. `<!-- (2) ここにアイコン:girl -->`と書かれた箇所で、下記のように記述します。
+`<!-- (B) ここにアイコン:girl -->`と書かれた箇所で、下記のように記述します。
 
 ```html
 <i class="ai ai-girl"></i>
 ```
 
+他のアイコンも同様に、記述します。計12のアイコンがあります。
+
+- girl
+- read, borrow, buy, eat, diary, related
+- stacked, books, leaned, pot, grinder
+
+以上の編集が出来たら、保存してブラウザで確認してみましょう。
+
+![HTML編集後](images/after-editing.png)
+
+チュートリアルは以上で完了です。

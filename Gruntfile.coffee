@@ -1,6 +1,7 @@
 module.exports = (grunt) ->
   require('time-grunt') grunt #実行時間の可視化用プラグイン
   grunt.initConfig
+    ###
     webfont: #WebFontのビルド
       dev:
         src: 'icons/*.svg'
@@ -13,6 +14,7 @@ module.exports = (grunt) ->
           template: 'icons/tmpl.css'
           htmlDemo: false
           ligatures: true
+    ###
     cssjoin: #CSSファイルの@import処理
       dev:
         files:

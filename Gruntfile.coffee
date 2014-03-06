@@ -60,5 +60,6 @@ module.exports = (grunt) ->
     'browser_sync', 'watch'
   ]
   grunt.registerTask 'build', [
-    'webfont', 'cssjoin', 'copy'
+    #'webfont', 'cssjoin', 'copy'
+    'cssjoin', 'copy'
   ]

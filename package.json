@@ -14,7 +14,6 @@
     "grunt-contrib-copy": "*",
     "grunt-cssjoin": "*",
     "grunt-webfont": "*",
-    "grunt-browser-sync": "*",
     "load-grunt-tasks": "*",
     "time-grunt": "*"
   }

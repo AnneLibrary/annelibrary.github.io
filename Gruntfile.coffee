@@ -30,7 +30,6 @@ module.exports = (grunt) ->
           cwd: 'bower_components/font-awesome/css/'
           src: ['font-awesome.css']
         ]
-    #監視用の設定
     watch:
       options:
         livereload: true

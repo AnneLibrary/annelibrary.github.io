@@ -20,7 +20,7 @@
   width: 40%;
   margin-bottom: 1.5em;
 }
-.actions-support > i {
+.actions-support > i.ai:before {
   font-size: 500%;
   background: rgba(255,255,255,.8);
   border-radius: .65em;
@@ -40,7 +40,7 @@
   margin: 0 auto 2em;
   text-align: left;
 }
-.actions-create > i {
+.actions-create > i.ai:before {
   font-size: 500%;
   background: #fff;
   border-radius: .5em;
@@ -65,23 +65,23 @@
   .actions-support {
     width: 24%;
   }
-  .actions-support > i {
+  .actions-support > i.ai:before {
     font-size: 400%;
   }
   .actions-create {
     display: inline-block;
     width: 45%;
   }
-  .actions-create > i {
+  .actions-create > i.ai:before {
     font-size: 600%;
   }
 }
 
 @media only screen and (min-width: 720px) {
-  .actions-support > i {
+  .actions-support > i.ai:before {
     font-size: 500%;
   }
-  .actions-create > i {
+  .actions-create > i.ai:before {
     font-size: 700%;
   }
 }

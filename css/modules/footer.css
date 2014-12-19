@@ -44,7 +44,7 @@ body > footer > ul li {
 body > footer > ul li:hover {
   background: rgba(255,255,255,.3);
 }
-body > footer > ul li i {
+body > footer > ul li i.ai:before {
   position: absolute;
   left: .8em;
   top: .4em;
